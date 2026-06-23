@@ -408,7 +408,6 @@ export default function ProductsPage() {
       </section>
 
       <CTA />
-      <Footer />
     </main>
   );
 }
