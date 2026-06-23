@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import CustomSelect from "../components/CustomSelect";
+import QuoteForm from "../components/QuoteForm";
 
 export const metadata = {
   title: "Get a Quote | Betopia PulseGrid",
@@ -139,63 +139,7 @@ export default function QuotePage() {
                 Send Us a Message
               </h2>
 
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
-                  />
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <input
-                    type="text"
-                    placeholder="Subject"
-                    className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
-                  />
-                  <input
-                    type="tel"
-                    placeholder="+880 XXXX XXXXXX"
-                    className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
-                  />
-                </div>
-
-                <CustomSelect 
-                  placeholder="Select a package / product"
-                  options={[
-                    { value: "p0", label: "P0 Go Solar" },
-                    { value: "p1", label: "P1 Essential Starter" },
-                    { value: "p2", label: "P2 Apartment Plus" },
-                    { value: "p3", label: "P3 Family Comfort" },
-                    { value: "p4", label: "P4 Smart Home" },
-                    { value: "p5", label: "P5 Luxury Suite" },
-                    { value: "p6", label: "P6 Full Freedom" },
-                    { value: "p7", label: "P7 Estate Master" },
-                    { value: "commercial", label: "Commercial & Industrial" },
-                    { value: "general", label: "General Inquiry" },
-                  ]}
-                />
-
-                <textarea
-                  placeholder="Message"
-                  rows="6"
-                  className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all resize-none"
-                ></textarea>
-
-                <button
-                  type="button"
-                  className="w-full bg-heading-1 text-heading-3 font-bold py-4 rounded-full flex items-center justify-center gap-2 hover:bg-heading-3 hover:text-white transition-all duration-300"
-                >
-                  Send Message
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
-                </button>
-              </form>
+              <QuoteForm />
 
             </div>
           </div>
