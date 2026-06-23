@@ -107,11 +107,11 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-1 pt-1">
-                  <a href="tel:+8801778454753" className="text-white/60 hover:text-white transition-colors">
-                    +880 1778 454753 <span className="opacity-50 text-xs ml-1">(Home)</span>
+                  <a href="tel:+8801335236611" className="text-white/60 hover:text-white transition-colors">
+                    +880 1335 236611 <span className="opacity-50 text-xs ml-1">(Home)</span>
                   </a>
-                  <a href="tel:+880 1730 798097" className="text-white/60 hover:text-white transition-colors">
-                    +880 1730 798097 <span className="opacity-50 text-xs ml-1">(Industrial)</span>
+                  <a href="tel:+8801335241611" className="text-white/60 hover:text-white transition-colors">
+                    +880 1335 241611 <span className="opacity-50 text-xs ml-1">(Industrial)</span>
                   </a>
                 </div>
               </li>
@@ -122,9 +122,14 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <a href="mailto:md@betopiapulsegrid.com" className="text-white/60 hover:text-white transition-colors break-all">
-                  md@betopiapulsegrid.com
-                </a>
+                <div className="flex flex-col">
+                  <a href="mailto:info@betopiapulsegridltd.com" className="text-white/60 hover:text-white transition-colors break-all">
+                    info@betopiapulsegridltd.com
+                  </a>
+                  <a href="mailto:betopiapulsegrid@gmail.com" className="text-white/60 hover:text-white transition-colors break-all text-sm mt-1">
+                    betopiapulsegrid@gmail.com
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

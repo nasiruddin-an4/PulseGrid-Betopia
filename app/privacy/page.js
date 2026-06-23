@@ -84,9 +84,9 @@ export default function PrivacyPage() {
                 <h2 className="text-xl font-bold text-heading-3 mb-4">7. Contact Us</h2>
                 <p className="mb-4">If you have any questions about this Privacy Policy, please contact us at:</p>
                 <div className="space-y-2">
-                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Email:</strong> <a href="mailto:md@betopiapulsegrid.com" className="text-[#25494a] hover:text-[#99f36c] font-medium transition-colors">md@betopiapulsegrid.com</a></p>
-                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Phone:</strong> <span className="text-gray-700">+880 1778 454753</span></p>
-                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Address:</strong> <span className="text-gray-700">Dhaka, Bangladesh</span></p>
+                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Email:</strong> <a href="mailto:info@betopiapulsegridltd.com" className="text-[#25494a] hover:text-[#99f36c] font-medium transition-colors">info@betopiapulsegridltd.com</a></p>
+                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Phone:</strong> <span className="text-gray-700">+880 1335 236611</span></p>
+                  <p><strong className="text-heading-3 font-semibold w-20 inline-block">Address:</strong> <span className="text-gray-700">Daisy Garden, House - 14 (3rd - floor), Main Road Block - A, Banasree, Dhaka-1219</span></p>
                 </div>
               </section>
             </div>

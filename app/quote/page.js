@@ -72,7 +72,7 @@ export default function QuotePage() {
                       <p className="text-white/60 text-xs mb-3">(WhatsApp available for sales)</p>
                       <ul className="space-y-2 text-sm">
                         <li className="flex flex-wrap items-center gap-2">
-                          <span className="font-bold text-white">+880 1778 454753</span>
+                          <span className="font-bold text-white">+880 1335 236611</span>
                           <span className="text-white/60 text-xs">(Home solar)</span>
                         </li>
                         <li className="flex flex-wrap items-center gap-2">
@@ -80,7 +80,7 @@ export default function QuotePage() {
                           <span className="text-white/60 text-xs">(Home solar)</span>
                         </li>
                         <li className="flex flex-wrap items-center gap-2 mt-3">
-                          <span className="font-bold text-white">+880 1730 294600</span>
+                          <span className="font-bold text-white">+880 1335 241611</span>
                           <span className="text-white/60 text-[10px] sm:text-xs">(Industrial & Commercial)</span>
                         </li>
                         <li className="flex flex-wrap items-center gap-2">
@@ -99,7 +99,7 @@ export default function QuotePage() {
                     <div>
                       <h4 className="font-bold text-heading-1 mb-2">Email Us</h4>
                       <ul className="space-y-1 text-sm font-medium text-white/90">
-                        <li>md@betopiapulsegrid.com</li>
+                        <li>info@betopiapulsegridltd.com</li>
                         <li>betopiapulsegrid@gmail.com</li>
                       </ul>
                     </div>
@@ -113,7 +113,7 @@ export default function QuotePage() {
                     <div>
                       <h4 className="font-bold text-heading-1 mb-3">Follow Our Impact</h4>
                       <div className="flex gap-4">
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">
+                        <a href="https://www.facebook.com/BetopiaPulseGridLtd" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">
                           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
                         </a>
                         <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">

@@ -13,22 +13,6 @@ export const metadata = {
 
 const packages = [
   {
-    id: "P0",
-    name: "Go Solar",
-    power: "0.5kW",
-    tagline: "Perfect for basic home backup and small energy savings.",
-    components: [
-      "1 × 500W Tier-1 Panel",
-      "1.2kVA Smart Hybrid Inverter",
-      "1 × 12v200Ah Lithium (LiFePO4) Battery"
-    ],
-    features: [
-      "Backup Time: 2-4 hours",
-      "Basic lighting & fans"
-    ],
-    priceRange: "৳39,950 – ৳95,500"
-  },
-  {
     id: "P1",
     name: "Essential Starter",
     power: "1kW",
