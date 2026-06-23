@@ -6,7 +6,7 @@ export default function AboutUs() {
     <section className="bg-bg-form py-24 w-full overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 xl:gap-24 items-center">
-          
+
           {/* Left Column - Image Collage */}
           <div className="relative">
             <div className="grid grid-cols-2 gap-4 md:gap-6">
@@ -22,11 +22,11 @@ export default function AboutUs() {
                 <Image src="/10002.jpg" alt="Solar Setup" fill className="object-cover" />
               </div>
             </div>
-            
+
             {/* Experience Badge */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#14532d] w-36 h-36 md:w-44 md:h-44 rounded-full flex flex-col items-center justify-center text-center shadow-2xl border-8 border-bg-form z-10 text-accent">
               <span className="text-3xl md:text-5xl font-bold text-heading-1 mb-1">10+</span>
-              <span className="text-sm font-medium leading-tight">Years<br/>Experience</span>
+              <span className="text-sm font-medium leading-tight">Years<br />Experience</span>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ export default function AboutUs() {
             <h3 className="text-gray-700 font-bold text-lg tracking-wider uppercase mb-3">
               Who We Are
             </h3>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-heading-3 mb-6 leading-[1.15] tracking-tight">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-heading-3 mb-6 leading-[1.15] tracking-tight">
               Leading Bangladesh's Clean Energy Revolution
             </h2>
             <p className="text-text-main text-lg leading-relaxed mb-6">
@@ -47,7 +47,7 @@ export default function AboutUs() {
 
             {/* List Items */}
             <div className="flex flex-col gap-6 mb-12">
-              
+
               {/* Item 1 */}
               <div className="flex items-center gap-5">
                 <div className="w-14 h-14 rounded-2xl bg-heading-2 flex items-center justify-center text-heading-1 shrink-0 shadow-md">
@@ -89,10 +89,10 @@ export default function AboutUs() {
 
             </div>
 
-           
+
 
           </div>
-          
+
         </div>
       </div>
     </section>

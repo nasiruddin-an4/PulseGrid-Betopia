@@ -136,10 +136,10 @@ export default function PricingPage() {
       {/* 1. Hero Section */}
       <section className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center pt-20">
         <div className="fixed inset-0 -z-10 bg-heading-3">
-          <Image 
-            src="/10004.jpg" 
-            alt="Solar Panels and Wind Turbines" 
-            fill 
+          <Image
+            src="/10004.jpg"
+            alt="Solar Panels and Wind Turbines"
+            fill
             className="object-cover opacity-40"
             priority
           />
@@ -147,7 +147,7 @@ export default function PricingPage() {
         </div>
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center flex flex-col items-center">
-          
+
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
             Transparent Solar Package Pricing
           </h1>
@@ -164,11 +164,10 @@ export default function PricingPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
             {pricingPackages.map((pkg, idx) => (
-              <div 
-                key={idx} 
-                className={`rounded-3xl p-8 flex flex-col shadow-xl hover:shadow-2xl transition-all duration-300 border ${
-                  pkg.isCommercial ? "bg-[#11201d] border-heading-1/30" : "bg-[#1b3b36] border-white/10"
-                }`}
+              <div
+                key={idx}
+                className={`rounded-3xl p-8 flex flex-col shadow-xl hover:shadow-2xl transition-all duration-300 border ${pkg.isCommercial ? "bg-[#11201d] border-heading-1/30" : "bg-[#1b3b36] border-white/10"
+                  }`}
               >
                 {/* Header */}
                 <div className="flex justify-between items-start mb-6">
@@ -207,12 +206,12 @@ export default function PricingPage() {
 
                 {/* CTA Button */}
                 <div className="mt-auto">
-                  <Button 
-                    href="/contact" 
-                    text={pkg.isCommercial ? "Call Sales Team" : "Get Quote"} 
-                    className="bg-transparent border-white/20 hover:border-heading-1 hover:bg-heading-1/10 pl-6 pr-1.5 py-1.5 w-full max-w-full justify-between group" 
-                    textClassName="text-white group-hover:text-white" 
-                    iconBg="bg-white/10 text-white group-hover:bg-heading-1 group-hover:text-heading-3" 
+                  <Button
+                    href="/quote"
+                    text={pkg.isCommercial ? "Call Sales Team" : "Get Quote"}
+                    className="bg-transparent border-white/20 hover:border-heading-1 hover:bg-heading-1/10 pl-6 pr-1.5 py-1.5 w-full max-w-full justify-between group"
+                    textClassName="text-white group-hover:text-white"
+                    iconBg="bg-white/10 text-white group-hover:bg-heading-1 group-hover:text-heading-3"
                   />
                 </div>
               </div>

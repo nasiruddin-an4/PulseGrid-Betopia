@@ -67,14 +67,14 @@ export default function Packages() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
-            
+
             <h2 className="text-4xl md:text-5xl font-medium text-heading-3 leading-tight tracking-tight">
               Choose the Right Fit<br className="hidden md:block" /> for Your Space
             </h2>
           </div>
-          <Button 
-            href="/packages" 
-            text="All Packages" 
+          <Button
+            href="/packages"
+            text="All Packages"
             className="self-start md:self-auto shrink-0 border-heading-3/20 hover:bg-heading-3/10 bg-transparent pl-6 pr-1.5 py-1.5 max-w-[250px]"
             textClassName="text-heading-3 text-sm"
           />
@@ -86,11 +86,11 @@ export default function Packages() {
           {/* Featured 3kW Card */}
           <div className="lg:col-span-2 relative rounded-[1.5rem] overflow-hidden group min-h-[400px] shadow-xl">
             {/* Background Image */}
-            <Image 
-              src="/10004.jpg" 
-              alt="Solar Panels" 
-              fill 
-              className="object-cover transition-transform duration-700 group-hover:scale-110" 
+            <Image
+              src="/10004.jpg"
+              alt="Solar Panels"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#0e2422]/90 via-[#0e2422]/40 to-transparent"></div>
@@ -150,7 +150,7 @@ export default function Packages() {
         {/* Commercial & Industrial Band */}
         <div className="mt-8 bg-heading-2 rounded-[2rem] p-10 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden">
           <div className="absolute right-0 top-0 h-full w-64 bg-heading-1/10 skew-x-[-12deg] translate-x-10 pointer-events-none"></div>
-          
+
           <div className="relative z-10">
             <p className="text-heading-1 text-sm font-bold uppercase tracking-[3px] mb-2">Commercial & Industrial</p>
             <h3 className="text-white text-2xl md:text-3xl font-bold mb-3">10kW+ Enterprise Solutions</h3>
@@ -161,9 +161,9 @@ export default function Packages() {
 
           <div className="relative z-10 shrink-0">
             <p className="text-white/50 text-sm mb-4 text-center md:text-right">Pricing based on scope</p>
-            <Button 
-              href="/contact" 
-              text="Call for Price" 
+            <Button
+              href="/quote"
+              text="Call for Price"
               className="bg-heading-1 border-heading-1 hover:bg-white pl-6 pr-1.5 py-1.5 w-full max-w-[250px]"
               textClassName="text-heading-3 text-lg"
               iconBg="bg-heading-3 text-white"

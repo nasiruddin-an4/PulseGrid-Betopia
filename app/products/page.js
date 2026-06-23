@@ -148,10 +148,10 @@ export default function ProductsPage() {
       {/* 1. Hero Section */}
       <section className="relative w-full min-h-[85vh] flex items-center overflow-hidden bg-heading-3 pt-20">
         <div className="absolute inset-0 z-0">
-          <Image 
-            src="/10002.jpg" 
-            alt="Solar Panels and Wind Turbines" 
-            fill 
+          <Image
+            src="/10002.jpg"
+            alt="Solar Panels and Wind Turbines"
+            fill
             className="object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-heading-3 via-heading-3/80 to-transparent"></div>
@@ -165,25 +165,25 @@ export default function ProductsPage() {
                 Solar Solutions & Packages
               </span>
               <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-                Complete Solar <br/><span className="text-heading-1">Solutions</span> for Every Scale
+                Complete Solar <br /><span className="text-heading-1">Solutions</span> for Every Scale
               </h1>
               <p className="text-white/80 text-lg leading-relaxed mb-8 max-w-xl">
                 From residential rooftops to industrial complexes, discover PulseGrid's comprehensive range of Tier-1 solar components, intelligent packages, and specialty systems powered by globally trusted brands.
               </p>
               <div className="flex flex-wrap gap-4 mt-8">
-                <Button 
-                  href="#packages" 
-                  text="Explore Packages" 
-                  className="bg-heading-1 border-heading-1 hover:bg-white pl-6 pr-1.5 py-1.5 min-w-[200px]" 
-                  textClassName="text-heading-3" 
-                  iconBg="bg-heading-3 text-white" 
+                <Button
+                  href="#packages"
+                  text="Explore Packages"
+                  className="bg-heading-1 border-heading-1 hover:bg-white pl-6 pr-1.5 py-1.5 min-w-[200px]"
+                  textClassName="text-heading-3"
+                  iconBg="bg-heading-3 text-white"
                 />
-                <Button 
-                  href="/contact" 
-                  text="Contact Sales" 
-                  className="bg-transparent border-white/20 hover:bg-white/10 pl-6 pr-1.5 py-1.5 min-w-[200px]" 
-                  textClassName="text-white" 
-                  iconBg="bg-white/20 text-white" 
+                <Button
+                  href="/quote"
+                  text="Contact Sales"
+                  className="bg-transparent border-white/20 hover:bg-white/10 pl-6 pr-1.5 py-1.5 min-w-[200px]"
+                  textClassName="text-white"
+                  iconBg="bg-white/20 text-white"
                 />
               </div>
             </div>
@@ -247,14 +247,14 @@ export default function ProductsPage() {
                   <h3 className="text-2xl font-bold text-white mb-1">{pkg.name}</h3>
                   <p className="text-white/70 text-sm">{pkg.tagline}</p>
                 </div>
-                
+
                 {/* Body */}
                 <div className="p-8 flex-1 flex flex-col">
                   <div className="mb-6 pb-6 border-b border-gray-100">
                     <span className="text-sm font-semibold text-text-main uppercase tracking-wider block mb-2">System Power</span>
                     <div className="text-4xl font-bold text-heading-3">{pkg.power}</div>
                   </div>
-                  
+
                   <div className="mb-6">
                     <span className="text-xs font-bold text-text-main uppercase tracking-wider block mb-3">Components</span>
                     <ul className="space-y-2 mb-6">
@@ -266,7 +266,7 @@ export default function ProductsPage() {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <ul className="space-y-4 mb-8 flex-1">
                     {pkg.features.map((feat, fIdx) => (
                       <li key={fIdx} className="flex items-start gap-3">
@@ -279,12 +279,12 @@ export default function ProductsPage() {
                   <div className="mt-auto pt-6 border-t border-gray-100">
                     <span className="text-sm font-semibold text-text-main uppercase tracking-wider block mb-2">Starting From</span>
                     <div className="text-2xl font-bold text-heading-3 mb-6">{pkg.priceRange}</div>
-                    <Button 
-                      href="/contact" 
-                      text="Request A Quote" 
-                      className="bg-heading-3 border-heading-3 hover:bg-heading-1 pl-6 pr-1.5 py-1.5 w-full max-w-full" 
-                      textClassName="text-white group-hover:text-heading-3" 
-                      iconBg="bg-white/10 text-white group-hover:bg-heading-3 group-hover:text-white" 
+                    <Button
+                      href="/quote"
+                      text="Request A Quote"
+                      className="bg-heading-3 border-heading-3 hover:bg-heading-1 pl-6 pr-1.5 py-1.5 w-full max-w-full"
+                      textClassName="text-white group-hover:text-heading-3"
+                      iconBg="bg-white/10 text-white group-hover:bg-heading-3 group-hover:text-white"
                     />
                   </div>
                 </div>
@@ -303,12 +303,12 @@ export default function ProductsPage() {
                 For Large Scale
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-                Commercial & Industrial <br className="hidden md:block"/><span className="text-heading-1">Solutions</span>
+                Commercial & Industrial <br className="hidden md:block" /><span className="text-heading-1">Solutions</span>
               </h2>
               <p className="text-white/80 text-lg leading-relaxed mb-8">
                 For projects above 10kW, PulseGrid designs bespoke solar infrastructure from feasibility study through SREDA NOC to commissioning — handled end-to-end.
               </p>
-              
+
               <div className="mb-6 text-white/90 font-bold">Ideal for these sectors:</div>
               <ul className="space-y-4 mb-10">
                 {["Hospitals & Medical Centers", "Universities & Educational Institutions", "Garment Factories & Manufacturing", "Commercial Office Buildings & Towers", "Agricultural Operations & Farms"].map((item, idx) => (
@@ -375,12 +375,12 @@ export default function ProductsPage() {
                     <span className="text-white/90">5-year ROI financial projection included</span>
                   </li>
                 </ul>
-                <Button 
-                  href="/contact" 
-                  text="Get Custom Quote" 
-                  className="bg-white border-white hover:bg-heading-1 pl-6 pr-1.5 py-1.5 relative z-10" 
-                  textClassName="text-heading-3" 
-                  iconBg="bg-heading-3 text-white" 
+                <Button
+                  href="/quote"
+                  text="Get Custom Quote"
+                  className="bg-white border-white hover:bg-heading-1 pl-6 pr-1.5 py-1.5 relative z-10"
+                  textClassName="text-heading-3"
+                  iconBg="bg-heading-3 text-white"
                 />
               </div>
             </div>
