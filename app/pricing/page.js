@@ -11,19 +11,6 @@ export const metadata = {
 
 const pricingPackages = [
   {
-    id: "P0",
-    name: "Go Solar",
-    tag: "Best for Small Homes",
-    price: "৳39,950 – 95,500",
-    desc: "Perfect for basic home backup and small energy savings.",
-    features: [
-      "1 × 500W Tier-1 Solar Panel",
-      "1.2kVA Smart Hybrid Inverter",
-      "1 × 12V 200Ah Lithium (LiFePO4) Battery",
-      "2–4 Hours Backup"
-    ]
-  },
-  {
     id: "P1",
     name: "Essential Starter",
     tag: "Entry Level",

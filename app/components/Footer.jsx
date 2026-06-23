@@ -108,10 +108,16 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-1 pt-1">
                   <a href="tel:+8801335236611" className="text-white/60 hover:text-white transition-colors">
-                    +880 1335 236611 <span className="opacity-50 text-xs ml-1">(Home)</span>
+                    +880 1335 236611 <span className="opacity-50 text-xs ml-1">(Home solar)</span>
+                  </a>
+                  <a href="tel:+8801335202916" className="text-white/60 hover:text-white transition-colors">
+                    +880 1335 202916 <span className="opacity-50 text-xs ml-1">(Home solar)</span>
                   </a>
                   <a href="tel:+8801335241611" className="text-white/60 hover:text-white transition-colors">
-                    +880 1335 241611 <span className="opacity-50 text-xs ml-1">(Industrial)</span>
+                    +880 1335 241611 <span className="opacity-50 text-[10px] sm:text-xs ml-1">(Industrial & Commercial)</span>
+                  </a>
+                  <a href="tel:+8801335202917" className="text-white/60 hover:text-white transition-colors">
+                    +880 1335 202917 <span className="opacity-50 text-[10px] sm:text-xs ml-1">(Industrial & Commercial)</span>
                   </a>
                 </div>
               </li>
