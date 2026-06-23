@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
+import CustomSelect from "../components/CustomSelect";
 
 export const metadata = {
   title: "Get a Quote | Betopia PulseGrid",
@@ -12,10 +13,10 @@ export default function QuotePage() {
       {/* 1. Hero Section */}
       <section className="relative w-full h-[60vh] min-h-[300px] flex items-center justify-center pt-20">
         <div className="fixed inset-0 -z-10 bg-heading-3">
-          <Image 
-            src="/10003.jpg" 
-            alt="Contact Us Background" 
-            fill 
+          <Image
+            src="/10003.jpg"
+            alt="Contact Us Background"
+            fill
             className="object-cover opacity-40"
             priority
           />
@@ -35,11 +36,11 @@ export default function QuotePage() {
       {/* 2. Main Content Section */}
       <section className="py-16 bg-[#f4f5f4] relative z-20">
         <div className="container mx-auto px-4 md:px-6">
-          
-          
+
+
 
           <div className="flex flex-col lg:flex-row gap-12 mb-16 ">
-            
+
             {/* Left Column: Contact Info Card */}
             <div className="w-full lg:w-[40%]">
               <div className="bg-heading-3 text-white rounded-3xl p-8 shadow-2xl h-full">
@@ -98,7 +99,7 @@ export default function QuotePage() {
                     <div>
                       <h4 className="font-bold text-heading-1 mb-2">Email Us</h4>
                       <ul className="space-y-1 text-sm font-medium text-white/90">
-                        <li>shahid@betopiapulsegridltd.com</li>
+                        <li>md@betopiapulsegrid.com</li>
                         <li>betopiapulsegrid@gmail.com</li>
                       </ul>
                     </div>
@@ -113,13 +114,13 @@ export default function QuotePage() {
                       <h4 className="font-bold text-heading-1 mb-3">Follow Our Impact</h4>
                       <div className="flex gap-4">
                         <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">
-                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
                         </a>
                         <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">
-                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
                         </a>
                         <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-heading-1 hover:text-heading-3 transition-colors duration-300">
-                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
                         </a>
                       </div>
                     </div>
@@ -140,58 +141,55 @@ export default function QuotePage() {
 
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <input 
-                    type="text" 
-                    placeholder="Name" 
+                  <input
+                    type="text"
+                    placeholder="Name"
                     className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
                   />
-                  <input 
-                    type="email" 
-                    placeholder="Email" 
+                  <input
+                    type="email"
+                    placeholder="Email"
                     className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
                   />
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <input 
-                    type="text" 
-                    placeholder="Subject" 
+                  <input
+                    type="text"
+                    placeholder="Subject"
                     className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
                   />
-                  <input 
-                    type="tel" 
-                    placeholder="+880 XXXX XXXXXX" 
+                  <input
+                    type="tel"
+                    placeholder="+880 XXXX XXXXXX"
                     className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all"
                   />
                 </div>
 
-                <div className="relative">
-                  <select className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all appearance-none text-text-main">
-                    <option value="" disabled selected>Select a package / product</option>
-                    <option value="p0">P0 Go Solar</option>
-                    <option value="p1">P1 Essential Starter</option>
-                    <option value="p2">P2 Apartment Plus</option>
-                    <option value="p3">P3 Family Comfort</option>
-                    <option value="p4">P4 Smart Home</option>
-                    <option value="p5">P5 Luxury Suite</option>
-                    <option value="p6">P6 Full Freedom</option>
-                    <option value="p7">P7 Estate Master</option>
-                    <option value="commercial">Commercial & Industrial</option>
-                    <option value="general">General Inquiry</option>
-                  </select>
-                  <div className="absolute inset-y-0 right-6 flex items-center pointer-events-none">
-                    <svg className="w-5 h-5 text-text-main" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-                  </div>
-                </div>
+                <CustomSelect 
+                  placeholder="Select a package / product"
+                  options={[
+                    { value: "p0", label: "P0 Go Solar" },
+                    { value: "p1", label: "P1 Essential Starter" },
+                    { value: "p2", label: "P2 Apartment Plus" },
+                    { value: "p3", label: "P3 Family Comfort" },
+                    { value: "p4", label: "P4 Smart Home" },
+                    { value: "p5", label: "P5 Luxury Suite" },
+                    { value: "p6", label: "P6 Full Freedom" },
+                    { value: "p7", label: "P7 Estate Master" },
+                    { value: "commercial", label: "Commercial & Industrial" },
+                    { value: "general", label: "General Inquiry" },
+                  ]}
+                />
 
-                <textarea 
-                  placeholder="Message" 
+                <textarea
+                  placeholder="Message"
                   rows="6"
                   className="w-full bg-white px-6 py-4 rounded-xl border border-gray-100 focus:outline-none focus:border-heading-1 focus:ring-1 focus:ring-heading-1 transition-all resize-none"
                 ></textarea>
 
-                <button 
-                  type="button" 
+                <button
+                  type="button"
                   className="w-full bg-heading-1 text-heading-3 font-bold py-4 rounded-full flex items-center justify-center gap-2 hover:bg-heading-3 hover:text-white transition-all duration-300"
                 >
                   Send Message
@@ -203,13 +201,13 @@ export default function QuotePage() {
           </div>
           {/* Map Embed */}
           <div className="w-full h-[400px] rounded-3xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.698375171732!2d90.43003051139414!3d23.758133588484196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8719f2a2491%3A0xc07c2a71d6431980!2sDaisy%20Garden!5e0!3m2!1sen!2sbd!4v1709405629471!5m2!1sen!2sbd" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen="" 
-              loading="lazy" 
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.698375171732!2d90.43003051139414!3d23.758133588484196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8719f2a2491%3A0xc07c2a71d6431980!2sDaisy%20Garden!5e0!3m2!1sen!2sbd!4v1709405629471!5m2!1sen!2sbd"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>

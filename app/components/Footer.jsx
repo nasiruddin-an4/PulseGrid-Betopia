@@ -3,11 +3,10 @@ import Link from "next/link";
 
 export default function Footer() {
   const quickLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
     { name: "Products", href: "/products" },
     { name: "Packages", href: "/packages" },
     { name: "Services", href: "/services" },
+    { name: "About Us", href: "/about" },
     { name: "Contact Us", href: "/contact" },
   ];
 
@@ -23,16 +22,16 @@ export default function Footer() {
     <footer className="bg-heading-3 pt-20 pb-8 mt-auto border-t border-white/5 relative overflow-hidden">
       {/* Decorative subtle background element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-white/[0.02] to-transparent pointer-events-none"></div>
-      
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        
+
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 mb-16">
-          
+
           {/* Column 1: About & Logo */}
           <div className="flex flex-col gap-6 lg:pr-8">
             <Link href="/" className="inline-block w-max">
-              <Image src="/logo.svg" alt="Betopia PulseGrid Ltd. Logo" width={140} height={40} className="brightness-0 invert opacity-90" />
+              <Image src="/logo.svg" alt="Betopia PulseGrid Ltd. Logo" width={140} height={40} />
             </Link>
             <p className="text-white/60 leading-relaxed text-sm md:text-base">
               Innovative solar solutions for a clean, efficient, and sustainable energy future. Serving homes, businesses, and industries across Bangladesh.
@@ -47,8 +46,8 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               {quickLinks.map((item) => (
                 <li key={item.name}>
-                  <Link 
-                    href={item.href} 
+                  <Link
+                    href={item.href}
                     className="text-white/60 hover:text-white transition-all duration-300 flex items-center group w-max text-sm"
                   >
                     <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 mr-0 group-hover:mr-2 text-white/40">
@@ -69,8 +68,8 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               {servicesLinks.map((item) => (
                 <li key={item.name}>
-                  <Link 
-                    href={item.href} 
+                  <Link
+                    href={item.href}
                     className="text-white/60 hover:text-white transition-all duration-300 flex items-center group w-max text-sm"
                   >
                     <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 mr-0 group-hover:mr-2 text-white/40">
@@ -100,7 +99,7 @@ export default function Footer() {
                   Daisy Garden, House - 14 (3rd fl), Main Road Block - A, Banasree, Dhaka-1219
                 </span>
               </li>
-              
+
               <li className="flex items-start gap-4">
                 <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
                   <svg className="w-4 h-4 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -116,7 +115,7 @@ export default function Footer() {
                   </a>
                 </div>
               </li>
-              
+
               <li className="flex items-center gap-4">
                 <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
                   <svg className="w-4 h-4 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">

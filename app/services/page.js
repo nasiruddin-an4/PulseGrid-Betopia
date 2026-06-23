@@ -72,10 +72,10 @@ export default function ServicesPage() {
       {/* 1. Hero Section */}
       <section className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center pt-20">
         <div className="fixed inset-0 -z-10 bg-heading-3">
-          <Image 
-            src="/10002.jpg" 
-            alt="Solar Engineering" 
-            fill 
+          <Image
+            src="/10002.jpg"
+            alt="Solar Engineering"
+            fill
             className="object-cover opacity-40"
             priority
           />
@@ -84,7 +84,7 @@ export default function ServicesPage() {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center flex flex-col items-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-            Excellence in <span className="text-heading-1">Solar</span> <br className="hidden md:block"/> Engineering
+            Excellence in <span className="text-heading-1">Solar</span> <br className="hidden md:block" /> Engineering
           </h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed">
             From comprehensive energy audits to precision installations and 24/7 maintenance support — we power your transition to clean energy.
@@ -113,18 +113,18 @@ export default function ServicesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {services.map((service, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="group relative h-[400px] rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
               >
                 {/* Background Image */}
-                <Image 
-                  src={service.bgImage} 
-                  alt={service.title} 
-                  fill 
+                <Image
+                  src={service.bgImage}
+                  alt={service.title}
+                  fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                
+
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-heading-3 via-heading-3/60 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100"></div>
 
@@ -133,15 +133,15 @@ export default function ServicesPage() {
                   <div className="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-heading-1 mb-6 group-hover:-translate-y-2 transition-transform duration-300">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                   </div>
-                  
+
                   <h3 className="text-2xl font-bold text-white mb-3 group-hover:-translate-y-2 transition-transform duration-300 delay-75">
                     {service.title}
                   </h3>
-                  
+
                   <p className="text-white/70 text-sm leading-relaxed mb-6 group-hover:-translate-y-2 transition-transform duration-300 delay-100 line-clamp-3">
                     {service.desc}
                   </p>
-                  
+
                   {/* Hover Arrow/Text */}
                   <div className="flex items-center gap-2 text-heading-1 font-bold text-sm translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 delay-150">
                     <span>Get Started</span>
@@ -171,12 +171,12 @@ export default function ServicesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto mb-12">
             {featuredPackages.map((pkg, idx) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="bg-[#1b3b36] border border-white/10 rounded-3xl p-8 flex flex-col shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden group"
               >
                 <div className="absolute top-0 right-0 w-32 h-32 bg-heading-1/10 rounded-full blur-2xl group-hover:bg-heading-1/20 transition-colors duration-500"></div>
-                
+
                 <div className="flex justify-between items-start mb-6 relative z-10">
                   <h3 className="text-xl font-bold text-white mb-2">
                     <span className="text-heading-1 mr-2">{pkg.id}</span>
@@ -196,12 +196,12 @@ export default function ServicesPage() {
                 </p>
 
                 <div className="mt-auto relative z-10">
-                  <Button 
-                    href="/pricing" 
-                    text="View Package Details" 
-                    className="bg-transparent border-white/20 hover:border-heading-1 hover:bg-heading-1/10 pl-6 pr-1.5 py-1.5 w-full max-w-full justify-between" 
-                    textClassName="text-white" 
-                    iconBg="bg-white/10 text-white group-hover:bg-heading-1 group-hover:text-heading-3" 
+                  <Button
+                    href="/pricing"
+                    text="View Package Details"
+                    className="bg-transparent border-white/20 hover:border-heading-1 hover:bg-heading-1/10 pl-6 pr-1.5 py-1.5 w-full max-w-full justify-between"
+                    textClassName="text-white"
+                    iconBg="bg-white/10 text-white group-hover:bg-heading-1 group-hover:text-heading-3"
                   />
                 </div>
               </div>
@@ -216,9 +216,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-      
-      {/* 5. Footer */}
-      <Footer />
     </main>
   );
 }

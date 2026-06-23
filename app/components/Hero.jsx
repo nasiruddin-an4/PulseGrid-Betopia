@@ -5,15 +5,17 @@ import Button from "./Button";
 export default function Hero() {
   return (
     <section className="relative w-full min-h-[100vh] flex pt-24 overflow-hidden">
-      {/* Background Image and Overlays */}
+      {/* Background Video and Overlays */}
       <div className="absolute inset-0 z-0">
-        <Image 
-          src="/10002.jpg" 
-          alt="Smart Solar Solutions Background" 
-          fill 
-          className="object-cover" 
-          priority 
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="object-cover w-full h-full"
+        >
+          <source src="/heroVideo.mp4" type="video/mp4" />
+        </video>
         
         {/* Soft overlay for readability */}
         <div className="absolute inset-0 bg-overlay-2/50 mix-blend-multiply"></div>
